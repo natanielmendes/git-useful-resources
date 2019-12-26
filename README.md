@@ -16,3 +16,9 @@ https://help.github.com/en/github/using-git/associating-text-editors-with-git]
 
 ### Best practices related to commit messages
 https://udacity.github.io/git-styleguide/
+
+### Basic Merge Conflicts from the Git book
+https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging#Basic-Merge-Conflicts
+
+### How Conflicts Are Presented from the Git docs
+https://git-scm.com/docs/git-merge#_how_conflicts_are_presented
