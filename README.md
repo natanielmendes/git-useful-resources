@@ -46,3 +46,8 @@ HEAD~2
 HEAD^^^
 HEAD~3
 ```
+### The 4th parent commit – the following indicate the 4th parent commit of the current commit
+```
+HEAD^^^
+HEAD~3
+```
