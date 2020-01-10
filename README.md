@@ -51,3 +51,25 @@ HEAD~3
 HEAD^^^^
 HEAD~4
 ```
+
+## Resetting one commit
+### When you want to reset the last commit, placing it to the Working Directory, run:
+```
+git reset HEAD~1
+```
+### OR:
+```
+git reset --mixed HEAD~1
+```
+### When you want to reset the last commit, placing it to the Staging Index, run:
+```
+git reset --soft HEAD~1
+```
+### When you want to reset the last commit throwing it to trash, run:
+```
+git reset --hard HEAD~1
+```
+### When working with RESET, don't forget to create a backup branch
+```
+git branch backup
+```
