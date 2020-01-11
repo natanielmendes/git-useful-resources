@@ -73,3 +73,11 @@ git reset --hard HEAD~1
 ```
 git branch backup
 ```
+
+## Working with remotes
+### Git book reference
+https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes#_showing_your_remotes
+
+### 'git remote' command from Git Docs 
+https://git-scm.com/docs/git-remote
+
