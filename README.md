@@ -81,3 +81,27 @@ https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes#_showing_your_rem
 ### 'git remote' command from Git Docs 
 https://git-scm.com/docs/git-remote
 
+## Reviewing Existing Work
+### Group By Commit Author
+```
+git shortlog
+```
+### Group By Commit Author to display commit count ordered by commit quantity
+```
+git shortlog -s -n
+```
+### Filter By Author with name starting by "Surma"
+```
+git log --author=Surma
+```
+### See extra detils of a commit
+```
+git log --author=Surma
+```
+### Filtering commits by descriptive message
+```
+git log --grep=bug
+```
+```
+git log --grep bug
+```
