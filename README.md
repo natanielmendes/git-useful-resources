@@ -105,3 +105,12 @@ git log --grep=bug
 ```
 git log --grep bug
 ```
+## In order to change remote branch
+### Remove current origin
+```
+git remote rm origin
+```
+### Add new origin
+```
+git remote add origin https://github.com/natanielmendes/my-travel-plans.git
+```
