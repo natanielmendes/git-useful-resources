@@ -114,3 +114,30 @@ git remote rm origin
 ```
 git remote add origin https://github.com/natanielmendes/my-travel-plans.git
 ```
+## Rebasing commits
+### interactive rebase
+```
+$ git rebase -i <base>
+```
+### interactively rebase the commits to the one that's 3 before the one we're on
+```
+$ git rebase -i HEAD~3
+```
+### Rebasing commands
+```
+use p or pick – to keep the commit as is
+use r or reword – to keep the commit's content but alter the commit message
+use e or edit – to keep the commit's content but stop before committing so that you can:
+add new content or files
+remove content or files
+alter the content that was going to be committed
+use s or squash – to combine this commit's changes into the previous commit (the commit above it in the list)
+use f or fixup – to combine this commit's change into the previous one but drop the commit message
+use x or exec – to run a shell command
+use d or drop – to delete the commit
+```
+## The best way to become a Git Beast is from collaborating with others
+http://up-for-grabs.net/#/
+http://www.firsttimersonly.com/
+https://github.com/search?utf8=%E2%9C%93&q=label%3Afirst-timers-only+is%3Aopen&type=Issues&ref=searchresults
+https://github.com/jlord/git-it-electron
